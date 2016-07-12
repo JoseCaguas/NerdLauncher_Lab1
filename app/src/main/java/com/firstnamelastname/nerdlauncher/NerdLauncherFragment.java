@@ -1,9 +1,5 @@
 package com.firstnamelastname.nerdlauncher;
 
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
@@ -16,6 +12,10 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 public class NerdLauncherFragment extends ListFragment {
 	private static final String TAG= "NerdLauncherFragment";
